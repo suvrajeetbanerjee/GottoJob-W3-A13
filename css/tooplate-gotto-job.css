@@ -1555,3 +1555,19 @@ nav[aria-label="breadcrumb"] {
   }
 }
 
+
+
+
+
+/* Primary navigation links */
+.navbar .nav-link {
+    color: #198754 !important;   /* high-contrast green */
+    font-weight: 600;           /* make text more visible */
+}
+
+/* Hover/active state */
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #145c32 !important;  /* darker green for hover/active */
+    text-decoration: underline; /* distinct hover feedback */
+}
